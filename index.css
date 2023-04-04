@@ -1,0 +1,55 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: roboto;
+}
+.background-container {
+  height: 100vh;
+  width: 100;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.notification-container {
+  width: 90%;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.information {
+  background-color: #0b69ff;
+}
+.success {
+  background-color: #2dca73;
+}
+.warning {
+  background-color: #ffb800;
+}
+.error {
+  background-color: #ff0b37;
+}
+img {
+  width: 20px;
+  margin-right: 10px;
+}
+p {
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .notification-container {
+    width: 60%;
+  }
+  h1 {
+    font-size: 46px;
+  }
+}
